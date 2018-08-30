@@ -37,14 +37,14 @@ class Queue:
 
 	def Front(self):
 		if(self.isEmpty()):
-			print("Stack is Empty")
+			#print("Stack is Empty")
 			return;
 		else:
 			return self.head.data
 
 	def Back(self):
 		if(self.isEmpty()):
-			print("Stack in Empty")
+			#print("Stack in Empty")
 			return;
 		else:
 			return self.tail.data
