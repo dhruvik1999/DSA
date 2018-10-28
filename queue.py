@@ -49,21 +49,25 @@ class Queue:
 		else:
 			return self.tail.data
 
-queue = Queue()
-queue.enqueue(1)
-queue.enqueue(2)
-queue.enqueue(3)
-queue.enqueue(4)
-queue.enqueue(5)
-queue.dequeue()
-print(queue.Front())
-print(queue.Back())
-queue.dequeue()
-queue.dequeue()
-queue.dequeue()
-queue.dequeue()
-print(queue.Front())
-queue.enqueue(2)
-print(queue.Front())
-print(queue.Back())
+def main():
+	queue = Queue()
+	queue.enqueue(1)
+	queue.enqueue(2)
+	queue.enqueue(3)
+	queue.enqueue(4)
+	queue.enqueue(5)
+	queue.dequeue()
+	print(queue.Front())
+	print(queue.Back())
+	queue.dequeue()
+	queue.dequeue()
+	queue.dequeue()
+	queue.dequeue()
+	print(queue.Front())
+	queue.enqueue(2)
+	print(queue.Front())
+	print(queue.Back())
+
+if __name__ == "__main__":
+	main()
 
