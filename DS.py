@@ -54,9 +54,7 @@ def main():
 	print(4,ds.findSet(4).data)
 	print(5,ds.findSet(5).data)
 
-
 	ds.union(3,5)
-
 
 	print(0,ds.findSet(0).data)
 	print(1,ds.findSet(1).data)
